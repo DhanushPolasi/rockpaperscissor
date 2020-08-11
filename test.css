@@ -1,0 +1,30 @@
+#container-1, #container-2{
+     align-content: center;
+     width: 75%;
+     margin: 0 auto;
+     text-align: center;
+}
+
+
+#flexbox-1, #flexbox-2{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+
+#flexbox-1 div{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+  
+}
+
+#flexbox-2 img:hover {
+    box-shadow: 0px 10px 50px  rgba(37, 50, 233, 1);
+
+}
+
+
